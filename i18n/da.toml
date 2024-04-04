@@ -188,6 +188,7 @@ nativeSettings = "Skift server"
 needHelp = "Brug for hjælp?"
 sessions = "Opladnings sessioner"
 settings = "Indstillinger"
+logout = "Log ud"
 
 [help]
 discussionsButton = "GitHub diskussioner"
@@ -505,3 +506,25 @@ title = "Fejl ved opstart"
 cancel = "Afbryd"
 template = "Producent"
 test = "Test"
+
+
+[loginModal]
+cancel = "Afbryd"
+error = "Login mislykkedes"
+login = "Log på"
+title = "Godkendelse"
+invalid = "Ugyldig adgangskode"
+password = "Adgangskode"
+
+[passwordModal]
+error = "Fejl:"
+description = "Angiv adgangskode for at beskytte konfigurations indstillinger. Det er stadig mulig at benytte hovedskærmen uden at logge på"
+empty = "Adgangskode må ikke være tomt"
+labelCurrent = "Nuværende adgangskode"
+labelNew = "Ny adgangskode"
+labelRepeat = "Gentag adgangskoden"
+newPassword = "Opret adgangskode"
+noMatch = "Adgangskode stemmer ikke"
+updatePassword = "Opdater adgangskode"
+titleUpdate = "Opdater Administrator adgangskode"
+titleNew = "Angiv Administrator adgangskode"
